@@ -1,127 +1,223 @@
 <!DOCTYPE html>
 <html>
-<style>
-     *{
-     font-family: 'Times New Roman', Times, serif;  
+  <style>
+    * {
+      font-family: "Times New Roman", Times, serif;
     }
-    tr:nth-of-type(odd){
-        background-color: #f3f3f3;
-	    color: black;
+    tr:nth-of-type(odd) {
+      background-color: #f3f3f3;
+      color: black;
     }
-    tr:nth-of-type(even){
-        background-color: #5b9aa0;
-	    color: #fff;
-    } 
-</style>
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    tr:nth-of-type(even) {
+      background-color: #5b9aa0;
+      color: #fff;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activity 1: HTML Tags</title>
     <h1>Activity 1: HTML Tags</h1>
     <p1>Austin P. Suriaga</p1>
-</head>
-<body>
-    <table border="1" width = "100% ">
-        <tr>
-            <th>Codes</th>
-            <th>Outputs</th>
-        </tr>
-        <tr>
-            <td><xmp><h1 align="center">This is Heading 1.</h1></xmp><br></td>
-            <td><h1 align="center">This is Heading 1.</h1></td>
-        </tr>
-        <tr>
-            <td><xmp><h2 align="center">This is Heading 2.</h2></xmp><br></td>
-            <td><h2 align="center">This is Heading 2.</h2></td>
-        </tr>
-        <tr>
-            <td><xmp><h3 align="center">This is Heading 3.</h3></xmp><br></td>
-            <td><h3 align="center">This is Heading 3.</h3></td>
-        </tr>
-        <tr>
-            <td><xmp><h4 align="center">This is Heading 4.</h4></xmp><br></td>
-            <td><h4 align="center">This is Heading 4.</h4></td>
-        </tr>
-        <tr>
-            <td><xmp><h5 align="center">This is Heading 5.</h5></xmp><br></td>
-            <td><h5 align="center">This is Heading 5.</h5></td>
-        </tr>
-        <tr>
-            <td><xmp><h6 align="center">This is Heading 6.</h6></xmp><br></td>
-            <td><h6 align="center">This is Heading 6.</h6></td>
-        </tr>
-        <tr>
-            <td><xmp><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, perferendis.</p></xmp><br></td>
-            <td><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, perferendis.</p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>This is <b>bold</b> text</p></xmp><br></td>
-            <td><p>This is <b>bold</b> text</p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>This <i>italized</i> text</p></xmp></td>
-            <td><p>This <i>italized</i> text</p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>This is <u>underlined</u> text</p></xmp></td>
-            <td><p>This is <u>underlined</u> text</p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>This is <strong>strong</strong> text</p></xmp></td>
-            <td><p>This is <strong>strong</strong> text</p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>This is <small>small</small> text</p></xmp></td>
-            <td><p>This is <small>small</small> text</p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>This is <mark>text</mark></p></xmp></td>
-            <td><p>This is <mark>text</mark></p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>x<sup>3</sup></p></xmp></td>
-            <td><p>x<sup>3</sup></p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>H<sup>2</sup>O</p></xmp></td>
-            <td><p>H<sup>2</sup>O</p></td>
-        </tr>
-        <tr>
-            <td><xmp><p>This is your conscience with <br>line break tag</p></xmp></td>
-            <td><p>This is your conscience with <br>line break tag</p></td>
-        </tr>
-        <tr>
-            <td><xmp><a href=""> This is a sample link</a></xmp></td>
-            <td><a href=""> This is a sample link</a></td>
-        </tr>
-        <tr>
-            <td> <xmp><img src="./images/sample.jpg" alt="sample.jpg" height="300" width="300" align="right" ></xmp> </td>
-            <td> <img src="./images/sample.jpg" alt="sample.jpg" height="300" width="300" align="right"> </td>
-          </tr>
-        <tr>
-            <td><xmp><h3>i am <span style="color: aquamarine;">aquamarine</span></h3></xmp></td>
-            <td><h3>i am <span style="color: aquamarine;">aquamarine</span></h3></td>
-        </tr>
-        <tr>
-            <td><xmp><q>Lorem ipsum dolor sit amet.</q><br> -stimpy</xmp></td>
-            <td><q>Lorem ipsum dolor sit amet.</q><br> -stimpy</td>
-        </tr>
-        <tr>
-            <td><xmp>"Lorem ipsum dolor sit amet."<br> -stimpy</xmp></td>
-            <td>"Lorem ipsum dolor sit amet."<br> -stimpy</td>
-        </tr>
-        <tr>
-            <td><xmp><blockquote>Lorem, ipsum.</blockquote></xmp></td>
-            <td><blockquote>Lorem, ipsum.</blockquote></td>
-        </tr>
-        <tr>
-            <td><xmp><p>The <abbr title="Portable Document Format"> pdf</abbr> is an abbreviation that stands for Portable Document Format</p></xmp></td>
-            <td><p>The <abbr title="Portable Document Format"> pdf</abbr> is an abbreviation that stands for Portable Document Format</p></td>
-        </tr>
-        <tr>
-            <td>
-                <xmp>
+  </head>
+  <body>
+    <table border="1" width="100% ">
+      <tr>
+        <th>Codes</th>
+        <th>Outputs</th>
+      </tr>
+      <tr>
+        <td>
+          <xmp><h1 align="center">This is Heading 1.</h1></xmp>
+          <br />
+        </td>
+        <td><h1 align="center">This is Heading 1.</h1></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><h2 align="center">This is Heading 2.</h2></xmp>
+          <br />
+        </td>
+        <td><h2 align="center">This is Heading 2.</h2></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><h3 align="center">This is Heading 3.</h3></xmp>
+          <br />
+        </td>
+        <td><h3 align="center">This is Heading 3.</h3></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><h4 align="center">This is Heading 4.</h4></xmp>
+          <br />
+        </td>
+        <td><h4 align="center">This is Heading 4.</h4></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><h5 align="center">This is Heading 5.</h5></xmp>
+          <br />
+        </td>
+        <td><h5 align="center">This is Heading 5.</h5></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><h6 align="center">This is Heading 6.</h6></xmp>
+          <br />
+        </td>
+        <td><h6 align="center">This is Heading 6.</h6></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, perferendis.</p></xmp>
+          <br />
+        </td>
+        <td>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            perferendis.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>This is <b>bold</b> text</p></xmp>
+          <br />
+        </td>
+        <td>
+          <p>This is <b>bold</b> text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>This <i>italized</i> text</p></xmp>
+        </td>
+        <td>
+          <p>This <i>italized</i> text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>This is <u>underlined</u> text</p></xmp>
+        </td>
+        <td>
+          <p>This is <u>underlined</u> text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>This is <strong>strong</strong> text</p></xmp>
+        </td>
+        <td>
+          <p>This is <strong>strong</strong> text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>This is <small>small</small> text</p></xmp>
+        </td>
+        <td>
+          <p>This is <small>small</small> text</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>This is <mark>text</mark></p></xmp>
+        </td>
+        <td>
+          <p>This is <mark>text</mark></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>x<sup>3</sup></p></xmp>
+        </td>
+        <td>
+          <p>x<sup>3</sup></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>H<sup>2</sup>O</p></xmp>
+        </td>
+        <td><p>H<sup>2</sup>O</p></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>This is your conscience with <br>line break tag</p></xmp>
+        </td>
+        <td>
+          <p>This is your conscience with <br />line break tag</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><a href=""> This is a sample link</a></xmp>
+        </td>
+        <td><a href=""> This is a sample link</a></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><img src="./images/sample.jpg" alt="sample.jpg" height="300" width="300" align="right" ></xmp>
+        </td>
+        <td>
+          <img
+            src="./images/sample.jpg"
+            alt="sample.jpg"
+            height="300"
+            width="300"
+            align="right"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><h3>i am <span style="color: aquamarine;">aquamarine</span></h3></xmp>
+        </td>
+        <td>
+          <h3>i am <span style="color: aquamarine">aquamarine</span></h3>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><q>Lorem ipsum dolor sit amet.</q><br> -stimpy</xmp>
+        </td>
+        <td>
+          <q>Lorem ipsum dolor sit amet.</q><br />
+          -stimpy
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp>"Lorem ipsum dolor sit amet."<br> -stimpy</xmp>
+        </td>
+        <td>
+          "Lorem ipsum dolor sit amet."<br />
+          -stimpy
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><blockquote>Lorem, ipsum.</blockquote></xmp>
+        </td>
+        <td><blockquote>Lorem, ipsum.</blockquote></td>
+      </tr>
+      <tr>
+        <td>
+          <xmp><p>The <abbr title="Portable Document Format"> pdf</abbr> is an abbreviation that stands for Portable Document Format</p></xmp>
+        </td>
+        <td>
+          <p>
+            The <abbr title="Portable Document Format"> pdf</abbr> is an
+            abbreviation that stands for Portable Document Format
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp>
                 <ol type="A" start="2">
                     <li>Food</li>
                     <ol>
@@ -132,21 +228,22 @@
                     <li>Snacks</li>
                 </ol>
                 </xmp>
-            </td>
-            <td>
-                <ol type="A" start="2">
-                    <li>Food</li>
-                    <ol>
-                        <li>Burger</li>
-                        <li>Pizza</li>
-                    </ol>
-                    <li>Drinks</li>
-                    <li>Snacks</li>
+        </td>
+        <td>
+          <ol type="A" start="2">
+            <li>Food</li>
+            <ol>
+              <li>Burger</li>
+              <li>Pizza</li>
             </ol>
-            </td>
-        </tr>
-        <tr>
-            <td><xmp>
+            <li>Drinks</li>
+            <li>Snacks</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp>
                 <ul type="square">
                     <li>Food</li>
                     <li>Drinks</li>
@@ -158,21 +255,22 @@
                 </ul>
 
             </xmp>
-            </td>
-            <td>
-                <ul type="square">
-                    <li>Food</li>
-                    <li>Drinks</li>
-                    <ol type="I">
-                        <li>Hot Chocolate</li>
-                        <li>Coffe</li>
-                    </ol>
-                    <li>Snacks</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><xmp>
+        </td>
+        <td>
+          <ul type="square">
+            <li>Food</li>
+            <li>Drinks</li>
+            <ol type="I">
+              <li>Hot Chocolate</li>
+              <li>Coffe</li>
+            </ol>
+            <li>Snacks</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp>
                 <dl>
                     <dt>Coffe</dt>
                     <dd>-Black and hot drink</dd>
@@ -180,18 +278,19 @@
                     <dd>-White cold drink</dd>
                 </dl>
             </xmp>
-            </td>
-            <td>
-                <dl>
-                    <dt>Coffe</dt>
-                    <dd>-Black and hot drink</dd>
-                    <dt>Milk</dt>
-                    <dd>-White cold drink</dd>
-                </dl>
-            </td>
-        </tr>
-        <tr>
-            <td> <xmp>
+        </td>
+        <td>
+          <dl>
+            <dt>Coffe</dt>
+            <dd>-Black and hot drink</dd>
+            <dt>Milk</dt>
+            <dd>-White cold drink</dd>
+          </dl>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp>
                 <table border="1" width="75%">
                     <tr>
                         <td>Name</td>
@@ -222,40 +321,28 @@
                     </tr>
     
                 </table>
-    
-            </xmp> </td>
-            <td> <table border="1" width="75%">
-                <tr>
-                    <th>Name</th>
-                    <th>Address</th>
-                    <th>Email</th>
-                </tr>
-                <tr>
-                    <td>
-                        Austin
-                    </td>
-                    <td>
-                        Manila
-                    </td>
-                    <td>
-                        ap.suriaga@gmail.com
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Jeff
-                    </td>
-                    <td>
-                        Manda
-                    </td>
-                    <td>
-                        jeff@gmail.com
-                    </td>
-                </tr>
-    
-            </table> </td>
-          </tr>
+            </xmp>
+        </td>
+        <td>
+          <table border="1" width="75%">
+            <tr>
+              <th>Name</th>
+              <th>Address</th>
+              <th>Email</th>
+            </tr>
+            <tr>
+              <td>Austin</td>
+              <td>Manila</td>
+              <td>ap.suriaga@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Jeff</td>
+              <td>Manda</td>
+              <td>jeff@gmail.com</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
     </table>
-    
-</body>
+  </body>
 </html>
